@@ -1,5 +1,15 @@
 This is CYSE 492 Group 22's repo for their agentic penetration testing AI. It is written entirely in Python, and uses existing AI models to carry out its tasks. Retrieval Augmented Generation (RAG) is used to provide additional information to the models without the need to retrain them. 
 
+## My Contributions
+
+As part of George Mason University’s CYSE 492/493 senior design team, I contributed to SysBreaker, an agentic AI penetration testing framework.
+
+- Supported the Recon module using Kali Linux and Nmap.
+- Worked on AI-assisted penetration testing workflows across Recon, Enumeration, Exploitation, and Post-Exploitation phases.
+- Supported LangGraph/Ollama-based orchestration to coordinate module decisions.
+- Contributed to project documentation, methodology, reporting, and presentation materials.
+- Won First Place Team Award at George Mason University’s Senior Design Competition.
+
 The overall system is built out of several different modules to carry out the steps of penetration testing. These modules are designed to run sequentially, and pass information to each other. They are centered around two open-source tools: Langgraph and Ollama. Langgraph allows for the easy construction of stateful, multi-agent programs by creating workflows as graphs. Ollama allows us to interact with different AI models using the same API (Application programming interface). This means we can easily switch between AI models without rewriting code.
 
 GitHub link: https://github.com/KamyarBrk/SysBreaker
